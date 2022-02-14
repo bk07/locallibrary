@@ -156,5 +156,3 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'bhargavkishore111@gmail.com'
 EMAIL_HOST_PASSWORD = 'nfaxtjposlaqztvr'
-
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
