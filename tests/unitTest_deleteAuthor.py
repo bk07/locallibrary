@@ -55,5 +55,5 @@ def tearDown(self):
     self.driver.close()
 
 
-if _name_ == "main":
+if __name__ == "main":
     unittest.main()

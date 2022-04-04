@@ -1,6 +1,4 @@
-# Unit test file to determine if the Customer List page is displayed when 
-the
-user
+# Unit test file to determine if the Customer List page is displayed when
 # clicks the 'Customers' button in the navigation pane of the mfscrm app
 # Customer list is shown if the 'summary' button exists on the page
 import unittest
@@ -15,21 +13,14 @@ import warnings
 class ll_ATS(unittest.TestCase):
 
 
-# set up the test class - assign the driver to Chrome - if using a
-different
+# set up the test class - assign the driver to Chrome - if using a different
 
 
 # browser, change the browser name below
 def setUp(self):
     self.driver = webdriver.Chrome()
-    warnings.simplefilter('ignore', ResourceWarning)  # ignore
-
-
-resource
-warning if occurs
-# Test if Customer list is displayed when Customers is clicked in the
-Navigation
-bar
+    warnings.simplefilter('ignore', ResourceWarning)  # ignoreresource warning if occurs
+# Test if Customer list is displayed when Customers is clicked in the Navigation bar
 
 
 # Customer list is shown if the 'summary' button exists on the page

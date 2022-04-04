@@ -32,7 +32,7 @@ class ll_ATS(unittest.TestCase):
             "/html/body/div/div[3]/div/div[1]/div/div/div/form/div[2]/table/tbody/tr/th/a").click()
         time.sleep(1)
         driver.find_element_by_xpath(
-            "/html/body/div[1]/div[3]/div/div[1]/div/form/div/fieldset/div[2]/div/input").send_keys('Dengey')
+            "/html/body/div[1]/div[3]/div/div[1]/div/form/div/fieldset/div[2]/div/input").send_keys('Singh')
         time.sleep(3)
         time.sleep(1)
         # click author
@@ -55,5 +55,5 @@ def tearDown(self):
     self.driver.close()
 
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     unittest.main()

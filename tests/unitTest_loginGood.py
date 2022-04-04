@@ -8,18 +8,14 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 import warnings
 class ll_ATS(unittest.TestCase):
-    #set up the test class - assign the driver to Chrome - if using a
-different
+    #set up the test class - assign the driver to Chrome - if using adifferent
     #browser, change the browser name below
     def setUp(self):
         self.driver = webdriver.Chrome()
-        warnings.simplefilter('ignore', ResourceWarning) #ignore resource
-warning if occurs
-    # If login is successful, 'Logout' will be displayed as the text in the
-Navbar
+        warnings.simplefilter('ignore', ResourceWarning) #ignore resourcewarning if occurs
+    # If login is successful, 'Logout' will be displayed as the text in theNavbar
     def test_ll(self):
-        user = "bk"       #must be a valid username for the
-application
+        user = "bk"       #must be a valid username for theapplication
         pwd = "123"         #must be the password for a valid user
         #open the browser and go to the admin page
         driver = self.driver
